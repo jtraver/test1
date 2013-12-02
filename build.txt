@@ -1,0 +1,11 @@
+clone a repo
+cd repo
+checkout --track -b branch origin/branch
+checkout dev
+pull
+checkout prod
+pull
+merge dev
+push
+tag -a -m "tag_message" tag
+push --tags
